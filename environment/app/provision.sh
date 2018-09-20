@@ -21,5 +21,5 @@ sudo apt-get install nodejs -y
 sudo npm install pm2 -g
 
 # set up nginx reverse proxy
-sudo ln -s /home/ubuntu/environment/nodeapp.conf /etc/nginx/conf.d/nodeapp.conf
+sudo ln -s /home/ubuntu/environment/app/nodeapp.conf /etc/nginx/conf.d/nodeapp.conf
 sudo nginx -s reload
